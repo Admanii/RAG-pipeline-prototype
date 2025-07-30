@@ -21,7 +21,7 @@ embeddings = AzureCustomEmbeddings(
 )
 
 # Load all text files
-loader = TextLoader("../sample_docs/faq.txt")
+loader = TextLoader("../../sample_docs/faq.txt")
 documents = loader.load()
 
 # Split documents
