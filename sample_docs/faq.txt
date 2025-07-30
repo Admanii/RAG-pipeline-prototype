@@ -1,5 +1,50 @@
 Q: How can I reset my password?
-A: You can reset your password by clicking 'Forgot Password' on the login screen.
+A: You can reset your password by clicking the "Forgot Password" link on the login screen. Follow the instructions sent to your registered email address to create a new password.
 
-Q: What is the refund policy?
-A: Refunds are processed within 7 business days upon request and approval.
+Q: Can I change my email address?
+A: Yes, you can update your email address from your Account Settings page. You'll need to confirm the new email through a verification link.
+
+Q: What should I do if I suspect unauthorized access?
+A: Immediately reset your password and contact our support team. We also recommend enabling two-factor authentication (2FA) for added protection.
+
+Q: What payment methods do you accept?
+A: We accept major credit cards (Visa, MasterCard, AMEX), PayPal, and Stripe.
+
+Q: Can I update my billing details?
+A: Yes, go to Billing > Payment Methods in your account settings to update or add a new payment method.
+
+Q: Will I receive an invoice?
+A: Invoices are automatically emailed after every successful payment and are also available in your Billing History.
+
+Q: What is your refund policy?
+A: Refunds are processed within 7 business days upon request and approval. Please contact support within 14 days of your purchase.
+
+Q: How do I cancel my subscription?
+A: You can cancel anytime from your Subscription Settings. Your access will remain active until the end of the billing cycle.
+
+Q: Will I lose my data if I cancel?
+A: Your data will be stored for 30 days after cancellation. You can export it before it is deleted.
+
+Q: How do I upload documents for analysis?
+A: Navigate to the Upload Center, drag and drop your files, or use the bulk import feature.
+
+Q: What file formats are supported?
+A: We currently support .txt, .pdf, .md, .docx, and .csv formats.
+
+Q: Is there a size limit on documents?
+A: Individual files must be under 25MB. Contact support for larger file handling.
+
+Q: What is RAG (Retrieval-Augmented Generation)?
+A: RAG combines document retrieval with a language model to generate more accurate and grounded responses.
+
+Q: What models are supported?
+A: OpenAI GPT-3.5/4, Azure OpenAI, and GitHub-hosted LLMs via Azure-compatible endpoints.
+
+Q: Where are my documents stored?
+A: In a Pinecone Vector Database hosted in AWS US-East-1. Raw text is not stored unless explicitly enabled.
+
+Q: How do I contact customer support?
+A: Email support@yourdomain.com or use the Help Center on our website.
+
+Q: What are your support hours?
+A: Monday to Friday, 9 AM to 6 PM (UTC).
