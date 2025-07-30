@@ -16,7 +16,7 @@ This project demonstrates how to build a **Retrieval-Augmented Generation (RAG)*
 
 ```bash
 cp .env.example .env
-
+```
 
 2. Install dependencies:
 ```bash
