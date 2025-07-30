@@ -6,11 +6,12 @@ This project demonstrates how to build a **Retrieval-Augmented Generation (RAG)*
 
 - **Pinecone-Create-Index.py** – Creates a vector index in Pinecone.
 - **Pinecone-Delete-Index.py** – Deletes the Pinecone index.
-- **LangChain-Embedding-From-Dir.py** – Converts text files into embeddings and stores them in Pinecone.
-- **LangChain-RAG-OpenAI.py** – Runs a RAG workflow using OpenAI's LLM.
+- **LangChain-Embedding.py** – Converts text files into embeddings and stores them in Pinecone.
+- **LangChain-RAG.py** – Runs a RAG workflow using OpenAI's LLM.
+- **LangChain-Embedding-Github.py** – Converts text files into embeddings and stores them in Pinecone via Azure-compatible.
 - **LangChain-RAG-Github.py** – Runs a RAG workflow using GitHub-hosted LLMs via Azure-compatible endpoints.
 
-## ⚙️ Setup
+## Setup
 
 1. Clone the repo and create a `.env` file from the example:
 
