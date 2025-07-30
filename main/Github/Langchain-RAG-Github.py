@@ -42,10 +42,9 @@ llm = ChatCompletionsClient(
     endpoint=endpoint,
     credential=AzureKeyCredential(token),
 )
-# llm = ChatOpenAI( model="gpt-4", openai_api_key=openai.api_key, temperature=0.7 )
 
 # # Retrieve documents
-query = "What is the refund policy?"
+query = input("Enter your question: ")
 docs = retriever.invoke(query)
 context = "\n\n".join([doc.page_content for doc in docs])
 # print("Retrieved context:", context)
@@ -61,23 +60,3 @@ response = llm.complete(
 )
 
 print('Answer: ', response.choices[0].message.content)
-
-# Define Prompt Template
-# prompt_template = PromptTemplate(
-#     template="""
-#     Use the following context to answer the question as accurately as possible:
-#     Context: {context}
-#     Question: {question}
-#     Answer:""",
-#     input_variables=["context", "question"]
-# )
-
-# # Create LLM Chain
-# llm_chain = prompt_template | llm | StrOutputParser()
-
-    
-# # Run LLM chain with the retrieved context
-# answer = llm_chain.invoke({"context": context, "question": query})
-
-# # Output the Answer and Sources
-# print("Answer:", answer)
