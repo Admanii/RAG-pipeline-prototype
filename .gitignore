@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.* 
+*.env
+
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs and local debug artifacts
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# Python tooling
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Compiled C extensions
+*.so
+
+# LangChain + Pinecone cache or metadata (if any)
+*.pkl
+*.jsonl
+*.npy
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+*~
+
+# Ignore output artifacts
+output/
+outputs/
+artifacts/
+
+
+KEY.txt
